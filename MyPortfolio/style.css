@@ -96,7 +96,7 @@ body.hovered #cursor-glow {
     box-shadow: 0 0 20px rgba(179, 136, 255, 0.6);
 }
 
-/* Hero Section */
+/* Main Hero Section Styles */
 .hero{
     min-height: 100vh; display: flex; justify-content: flex-start; align-items: center; position: relative; overflow: hidden; padding: 150px 8%;
     background-image: url('images/bg2.jpg'); background-size: contain; background-position: right center; background-repeat: no-repeat;
