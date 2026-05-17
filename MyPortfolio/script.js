@@ -49,7 +49,7 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Typewriter Effect
+// Text typing animation for hero
 const words = ["Creative Web Designer", "Future IT Professional"];
 let i = 0;
 let timer;
