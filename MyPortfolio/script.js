@@ -85,3 +85,5 @@ function deletingEffect() {
 }
 
 document.addEventListener('DOMContentLoaded', () => { typingEffect(); });
+
+// Project Complete
