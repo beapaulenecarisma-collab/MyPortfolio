@@ -9,7 +9,7 @@ const observer = new IntersectionObserver((entries) => {
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
-// Custom Cursor Glow effect
+// Mouse movement listener for cursor
 const glow = document.getElementById('cursor-glow');
 
 window.addEventListener('mousemove', (e) => {
