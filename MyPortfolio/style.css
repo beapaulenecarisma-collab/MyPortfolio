@@ -23,7 +23,7 @@ body{
     border: 2px solid #1f1a26;
 }
 
-/* Custom Cursor */
+* Glow Cursor Effects */
 #cursor-glow {
     position: fixed;
     width: 20px;
