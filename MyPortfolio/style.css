@@ -178,6 +178,7 @@ section h2{
 .about-text h3{ font-size: 2.4rem; color: #ffffff; margin-bottom: 20px; font-weight: 700; }
 .about-text p{ color: #e5e7eb; line-height: 1.9; margin-bottom: 30px; }
 
+/* Technical skills badging */
 .skills { display: flex; flex-wrap: wrap; gap: 14px; }
 .skills span{ padding: 10px 22px; border-radius: 14px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); color: #ffffff; font-weight: 600; font-size: 0.9rem; transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
 .skills span:hover{ background: linear-gradient(45deg, #38b6ff, #ff66c4); color: #ffffff; box-shadow: 0 10px 25px rgba(179, 136, 255, 0.3); transform: translateY(-5px) scale(1.05); }
