@@ -231,4 +231,6 @@ footer{ text-align: center; padding: 35px; background: #08060a; color: #9ca3af; 
 
 /* Mobile View Adjustments */
 @media(max-width: 900px){ .hero { background-position: 75% center; padding: 120px 5%; justify-content: center; } .hero-content h1{ font-size: 2.8rem; } section h2 { font-size: 2.4rem; } }
+
+/* Hide links on small mobile screens */
 @media(max-width: 600px){ .nav-links{ display: none; } .hero { background-position: 65% center; align-items: center; } .hero-content h1{ font-size: 2.1rem; } .project-card, .contact-box, .hero-content{ width: 100%; } #cursor-glow { display: none; } *{ cursor: auto; } }
