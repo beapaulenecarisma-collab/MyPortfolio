@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght=300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- KONEKSYON SA STYLE.CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="cursor-glow"></div>
+
+    <nav class="navbar" id="navbar">
+        <h1 class="logo">✨ Beyas Web</h1>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-nebula-clouds">
+            <div class="cloud-blur cloud-blue"></div>
+            <div class="cloud-blur cloud-violet"></div>
+            <div class="cloud-blur cloud-pink"></div>
+        </div>
+        
+        <div class="hero-content">
+            <!-- PINALITAN: May images/ na sa unahan -->
+            <div class="image-container">
+                <img src="images/hero-pic.jpg" alt="Profile Photo" class="hero-img">
+            </div>
+            <h1 class="hidden delay-1">Hi, I am Bea Paulene Carisma</h1>
+            <p class="tagline hidden delay-2"><span id="typewriter"></span><span class="typed-cursor">|</span></p>
+            <p class="hero-text hidden delay-3">
+                I am a passionate student who is continuously learning and improving in coding, website design, and modern technologies. Even though coding is not yet my strongest skill, I always do my best and stay determined to learn more every day. I enjoy creating beautiful and creative web projects while challenging myself to grow and improve.
+                My goal is to become a successful web designer and inspire others through hard work, creativity, dedication and innovation.
+            </p>
+            <div class="hero-buttons hidden delay-3">
+                <a href="#projects" class="btn">Explore My Work</a>
+                <a href="#contact" class="btn btn2">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section class="about" id="about">
+        <div class="about-mesh-glow"></div>
+        <h2 class="hidden">About Me</h2>
+        <div class="about-container">
+     
+            <div class="about-image hidden delay-1">
+                <img src="images/aboutme.jpg" alt="About Me">
+            </div>
+            <div class="about-text hidden delay-2">
+                <h3>Hello! 👋</h3>
+                <p>I'm Bea, a student pursuing a degree in Information Technology (BSIT) in Cavite State University-Imus Campus (CVSU). I am a passionate student who is continuously learning and improving my skills in web design, coding, and modern technology. Creating creative and modern websites inspires me to become better every day. Although coding is really challenging for me and there are times when I question why I chose this course, I know that I need to finish what I started and learn to love this journey.</p>
+                <p>Even when projects and coding activities become difficult, I always do my best to keep up and continue learning. I want to improve my knowledge and skills little by little, even if I did not fully like coding at first. My goal is to become a successful IT graduate, make my family proud, and prove to myself that I can achieve my dreams through hard work, patience, and determination. I will never give up on the course I chose, and I will continue fighting for the future that I want.</p>
+                <div class="skills">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>C++</span>
+                    <span>Java</span>
+                    <span>JavaScript</span>
+                    <span>UI Design</span>
+                    <span>Responsive Logic</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section class="projects" id="projects">
+        <h2 class="hidden">My Projects</h2>
+        <div class="project-container">
+            <div class="project-card hidden delay-1">
+                <div class="project-img-box">
+                    <img src="images/proj1.png" alt="Portfolio Website">
+                    <div class="project-overlay">
+                        <a href="http://127.0.0.1:5500/MyPortfolio/" class="view-btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Portfolio Website</h3>
+                    <p>A personal portfolio website that showcases personal skills, projects, achievements, and contact information.</p>
+                    <div class="tech-tags">
+                        <span>HTML</span>
+                        <span class="violet-tech">CSS</span>
+                        <span class="pink-tech">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card hidden delay-2">
+                <div class="project-img-box">
+                    <img src="images/proj2.png" alt="Food Recipe-Website">
+                    <div class="project-overlay">
+                        <a href="https://canyn-hami.github.io/Recipe-Website/" class="view-btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Food Recipe-Website</h3>
+                    <p>A modern food recipe website that helps users discover delicious dishes, easy cooking instructions, and tasty meal ideas for every occasion.</p>
+                    <div class="tech-tags">
+                        <span>HTML</span>
+                        <span class="pink-tech">CSS</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card hidden delay-3">
+                <div class="project-img-box">
+                    <img src="images/proj3.png" alt="Tic-tac-Toe">
+                    <div class="project-overlay">
+                        <a href="#" class="view-btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Tic-Tac-Toe Game</h3>
+                    <p>A simple and fun TicTacToe game where two players take turns placing symbols to get three in a row and win the game.</p>
+                    <div class="tech-tags">
+                        <span>HTML</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section class="contact" id="contact">
+        <h2 class="hidden">Connect With Me</h2>
+        <div class="contact-container">
+            <a href="mailto:beapaulenecarisma@gmail.com" class="contact-box hidden delay-1">
+                <div class="contact-icon">📧</div>
+                <h3>Email</h3>
+                <p>beapaulenecarisma@gmail.com</p>
+            </a>
+            <a href="https://github.com/beapaulenecarisma-collab" target="_blank" class="contact-box hidden delay-2">
+                <div class="contact-icon">💼</div>
+                <h3>GitHub</h3>
+                <p>beapaulenecarisma-collab</p>
+            </a>
+            <a href="https://www.facebook.com/bea.carisma.2025" target="_blank" class="contact-box hidden delay-3">
+                <div class="contact-icon">🔮</div>
+                <h3>Facebook</h3>
+                <p>Bea Paulene Carisma</p>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Bea Paulene O. Carisma | This is My Portfolio</p>
+    </footer>
+
+    <!-- KONEKSYON SA SCRIPT.JS -->
+    <script src="script.js"></script>
+</body>
+</html>
