@@ -23,7 +23,7 @@ interactables.forEach(item => {
     item.addEventListener('mouseleave', () => document.body.classList.remove('hovered'));
 });
 
-// Active Navbar logic at Scroll Background Change
+// Dynamic navbar updates on scroll
 const sections = document.querySelectorAll('section');
 const navLinks = document.querySelectorAll('.nav-links a');
 
