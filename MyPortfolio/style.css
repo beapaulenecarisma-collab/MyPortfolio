@@ -163,7 +163,7 @@ section h2{
     background: linear-gradient(to right, #38b6ff, #b388ff, #ff66c4); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
 }
 
-/* About Section */
+/* Profile Biography Section */
 .about { background: #1e1926; overflow: hidden; }
 .about-mesh-glow { position: absolute; width: 700px; height: 400px; background: radial-gradient(circle, rgba(179,136,255,0.15) 0%, transparent 75%); top: -10%; right: 5%; pointer-events: none; }
 
