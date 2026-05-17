@@ -1,4 +1,4 @@
-// Scroll Animation Observer
+// Scroll animation observer
 const observerOptions = { threshold: 0.15 };
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
