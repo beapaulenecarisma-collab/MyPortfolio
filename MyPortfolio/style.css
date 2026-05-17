@@ -59,7 +59,7 @@ body.hovered #cursor-glow {
     backdrop-filter: blur(25px);
     background: rgba(31, 26, 38, 0.75);
     border-bottom: 1px solid rgba(255, 255, 255, 0.03);
-    transition: 0.4s ease;
+    transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .logo{
