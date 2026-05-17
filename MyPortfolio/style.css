@@ -101,6 +101,8 @@ body.hovered #cursor-glow {
     min-height: 100vh; display: flex; justify-content: flex-start; align-items: center; position: relative; overflow: hidden; padding: 150px 8%;
     background-image: url('images/bg2.jpg'); background-size: contain; background-position: right center; background-repeat: no-repeat;
 }
+
+/* Nebula background clouds */
 .hero-nebula-clouds { position: absolute; inset: 0; z-index: 1; pointer-events: none; }
 .cloud-blur { position: absolute; border-radius: 50%; filter: blur(150px); opacity: 0.12; animation: moveNebula 25s infinite alternate ease-in-out; }
 .cloud-blue { width: 600px; height: 600px; background: #38b6ff; top: -10%; left: -5%; }
