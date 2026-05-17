@@ -207,7 +207,7 @@ section h2{
 .tech-tags span.violet-tech { background: rgba(179, 136, 255, 0.15); color: #b388ff; }
 .tech-tags span.pink-tech { background: rgba(255, 102, 196, 0.15); color: #ff66c4; }
 
-/* Contact Section */
+/* Social Links */
 .contact { background: radial-gradient(circle at center, #1c1524 0%, #0c0910 100%); }
 .contact-container{ display: flex; justify-content: center; gap: 35px; flex-wrap: wrap; }
 .contact-box{ width: 310px; padding: 50px 30px; border-radius: 28px; background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.05); backdrop-filter: blur(15px); text-align: center; transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); position: relative; text-decoration: none; display: block; }
