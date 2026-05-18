@@ -61,9 +61,18 @@ body.hovered #cursor-glow {
 }
 
 .logo{
-    font-size: 1.5rem; 
+    font-size: 1.8rem;
     font-weight: 800;
-    color: #ffffff; 
+    background: linear-gradient(45deg, #38b6ff, #b388ff, #ff66c4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -1px;
+    transition: 0.4s;
+}
+
+.logo:hover {
+    transform: scale(1.05) rotate(-2deg);
+    filter: drop-shadow(0 0 10px #b388ff);
 }
 .nav-links{ display: flex; list-style: none; gap: 20px; } 
 
