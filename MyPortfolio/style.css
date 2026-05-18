@@ -54,8 +54,12 @@ body.hovered #cursor-glow {
     position: fixed;
     top: 0;
     z-index: 1000;
-    background: #1f1a26; 
+    backdrop-filter: blur(25px);
+    background: rgba(31, 26, 38, 0.75);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+    transition: 0.4s ease;
 }
+
 .logo{
     font-size: 1.5rem; 
     font-weight: 800;
