@@ -8,18 +8,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
     <div id="cursor-glow"></div>
 
     <nav class="navbar" id="navbar">
-        <h1 class="logo">✨Beyas Web</h1> 
+        <h1 class="logo">✨ Beyas Web</h1>
         <ul class="nav-links">
-            <<a href="#home" class="active">Home</a>
+            <li><a href="#home" class="active">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
+
     <section class="hero" id="home">
 
         <div class="hero-nebula-clouds">
@@ -27,12 +28,13 @@
             <div class="cloud-blur cloud-violet"></div>
             <div class="cloud-blur cloud-pink"></div>
         </div>
-       
+        
         <div class="hero-content">
-            <div class="image-container">
-                <img src="images/" alt="Profile Photo" class="hero-img"> 
+            <!-- PINALITAN: May images/ na sa unahan -->
+            <div class="image-container hidden">
+                <img src="images/hero-pic.jpg" alt="Profile Photo" class="hero-img">
             </div>
-           <h1 class="hidden delay-1">Hi, I am Bea Paulene Carisma</h1>
+            <h1 class="hidden delay-1">Hi, I am Bea Paulene Carisma</h1>
             <p class="tagline hidden delay-2"><span id="typewriter"></span><span class="typed-cursor">|</span></p>
             <p class="hero-text hidden delay-3">
                 I am a passionate student who is continuously learning and improving in coding, website design, and modern technologies. Even though coding is not yet my strongest skill, I always do my best and stay determined to learn more every day. I enjoy creating beautiful and creative web projects while challenging myself to grow and improve.
@@ -47,12 +49,12 @@
 
     <div class="section-divider"></div>
 
-    <!-- About section -->
+
     <section class="about" id="about">
         <div class="about-mesh-glow"></div>
         <h2 class="hidden">About Me</h2>
         <div class="about-container">
-     
+            <!-- PINALITAN: May images/ na sa unahan -->
             <div class="about-image hidden delay-1">
                 <img src="images/aboutme.jpg" alt="About Me">
             </div>
@@ -75,7 +77,7 @@
 
     <div class="section-divider"></div>
 
-    <!-- Projects section -->
+
     <section class="projects" id="projects">
         <h2 class="hidden">My Projects</h2>
         <div class="project-container">
@@ -83,7 +85,7 @@
                 <div class="project-img-box">
                     <img src="images/proj1.png" alt="Portfolio Website">
                     <div class="project-overlay">
-                        <a href="http://127.0.0.1:5500/MyPortfolio/" class="view-btn">View Project</a>
+                        <a href="https://bea-carisma.netlify.app/" class="view-btn">View Project</a>
                     </div>
                 </div>
                 <div class="project-info">
@@ -93,6 +95,7 @@
                         <span>HTML</span>
                         <span class="violet-tech">CSS</span>
                         <span class="pink-tech">JavaScript</span>
+                        <span>GitHub</span>
                     </div>
                 </div>
             </div>
@@ -106,26 +109,27 @@
                 </div>
                 <div class="project-info">
                     <h3>Food Recipe-Website</h3>
-                    <p>A modern food recipe website that helps users discover delicious dishes, easy cooking instructions, and tasty meal ideas for every occasion.</p>
+                    <p>A modern food recipe website that helps users discover delicious dishes, easy cooking instructions, and tasty meal ideas for every occasion</p>
                     <div class="tech-tags">
                         <span>HTML</span>
                         <span class="pink-tech">CSS</span>
+                        <span>GitHub</span>
                     </div>
                 </div>
             </div>
 
             <div class="project-card hidden delay-3">
                 <div class="project-img-box">
-                    <img src="images/proj3.png" alt="Tic-tac-Toe">
+                    <img src="images/proj3.png" alt="My 1st Respo">
                     <div class="project-overlay">
-                        <a href="#" class="view-btn">View Project</a>
+                        <a href="https://github.com/beapaulenecarisma-collab/my-first-repo.git" class="view-btn">View Project</a>
                     </div>
                 </div>
                 <div class="project-info">
-                    <h3>Tic-Tac-Toe Game</h3>
-                    <p>A simple and fun TicTacToe game where two players take turns placing symbols to get three in a row and win the game.</p>
+                    <h3>My 1st Respo</h3>
+                    <p>A personal portfolio website featuring the student profile, academic details, and background introduction.</p>
                     <div class="tech-tags">
-                        <span>HTML</span>
+                        <span>GitHub</span>
                     </div>
                 </div>
             </div>
@@ -134,7 +138,7 @@
 
     <div class="section-divider"></div>
 
-    <!-- Contact section -->
+
     <section class="contact" id="contact">
         <h2 class="hidden">Connect With Me</h2>
         <div class="contact-container">
@@ -156,12 +160,12 @@
         </div>
     </section>
 
-    <!-- Footer section -->
+
     <footer>
         <p>© 2026 Bea Paulene O. Carisma | This is My Portfolio</p>
     </footer>
 
-    <!-- KONEKSYON SA SCRIPT.JS -->
+
     <script src="script.js"></script>
 </body>
 </html>
