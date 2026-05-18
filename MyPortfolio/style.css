@@ -74,7 +74,22 @@ body.hovered #cursor-glow {
     transform: scale(1.05) rotate(-2deg);
     filter: drop-shadow(0 0 10px #b388ff);
 }
-.nav-links{ display: flex; list-style: none; gap: 20px; } 
+
+.nav-links{ display: flex; list-style: none; gap: 35px; }
+.nav-links a{
+    text-decoration: none; color: #d1d5db; font-weight: 600;
+    padding: 5px 10px; position: relative; font-size: 0.95rem;
+    transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.nav-links a:hover, .nav-links a.active{ color: #ffffff; transform: translateY(-2px); }
+.nav-links a::after{
+    content: ""; width: 0%; height: 3px; position: absolute; left: 0; bottom: -5px; border-radius: 10px;
+    background: linear-gradient(to right, #38b6ff, #b388ff, #ff66c4);
+    transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.nav-links a:hover::after, .nav-links a.active::after{ width: 100%; }
 
 .section-divider {
     height: 4px; width: 100%; position: relative; z-index: 5;
