@@ -37,6 +37,14 @@ body{
     transition: width 0.2s, height 0.2s, background-color 0.2s, transform 0.08s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
+body.hovered #cursor-glow {
+    width: 45px;
+    height: 45px;
+    background-color: rgba(255, 102, 196, 0.2);
+    border-color: #ff66c4;
+    box-shadow: 0 0 25px #ff66c4;
+}
+
 .navbar{
     width: 100%;
     padding: 20px 5%; 
